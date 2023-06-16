@@ -1,0 +1,32 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.post-form textarea,
+.comment-form textarea {
+    width: 100%;
+    height: 100px;
+    resize: vertical;
+}
+
+.post-list,
+.comment-list {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.post,
+.comment {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 0;
+}
+
+button {
+    padding: 10px 20px;
+}

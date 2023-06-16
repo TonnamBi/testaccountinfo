@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Web Board</h1>
+        
+        <!-- Post Form -->
+        <div class="post-form">
+            <h2>Create Post</h2>
+            <form>
+                <textarea name="postContent" placeholder="Write your post here"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        
+        <!-- Posts -->
+        <div class="post-list">
+            <h2>Posts</h2>
+            
+            <!-- Single Post -->
+            <div class="post">
+                <h3>Post Title</h3>
+                <p>Post content goes here...</p>
+                
+                <!-- Comments -->
+                <div class="comment-list">
+                    <h4>Comments</h4>
+                    
+                    <!-- Single Comment -->
+                    <div class="comment">
+                        <p>Comment content goes here...</p>
+                    </div>
+                </div>
+                
+                <!-- Comment Form -->
+                <div class="comment-form">
+                    <h4>Add a Comment</h4>
+                    <form>
+                        <textarea name="commentContent" placeholder="Write your comment here"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
